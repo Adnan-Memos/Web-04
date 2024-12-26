@@ -14,6 +14,7 @@ export function AuthModal(){
             </DialogTrigger>
             <DialogContent className="sm:max-w-[360px]">
                 <DialogHeader className="flex flex-row justify-center items-center gap-2">
+                    
                     <Image src={Logo} alt="Logo" className="size-10"/>
                     <h4>Cal<span className="text-primary">Marshal</span></h4>                
                 </DialogHeader>
