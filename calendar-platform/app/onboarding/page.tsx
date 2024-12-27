@@ -11,14 +11,17 @@ import {
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { useFormState } from "@conform-to/react";
+import { useFormState } from "react-dom";
+// import { useActionState } from "react";
 import { OnboardingAction } from "./actions";
 import { useForm } from "@conform-to/react";
 import { parseWithZod } from "@conform-to/zod";
 import { onboardingSchema } from "../lib/zodSchemas";
+import { SubmitButton } from "../components/SubmitButton";
 
 export default function OnboardingRoute() {
   const [lastResult, action] = useFormState(OnboardingAction, undefined);
+  // const [lastResult, action] = useActionState(OnboardingAction, undefined);
 
   const [form, fields] = useForm({
     lastResult,
@@ -68,11 +71,13 @@ export default function OnboardingRoute() {
                   className="rounded-l-none"
                 />
               </div>
+              <p className="text-red-500 text-sm">{fields.userName.errors}</p>
+
             </div>
           </CardContent>
         </form>
         <CardFooter>
-          <Button className="w-full">Submit</Button>
+          <SubmitButton text="Submit" className="w-full"/>
         </CardFooter>
       </Card>
     </div>
