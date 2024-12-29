@@ -4,6 +4,7 @@ import { requireUser } from "../lib/hooks";
 import { onboardingSchema, onboardingSchemaValidation } from "./../lib/zodSchemas";
 import { parseWithZod } from "@conform-to/zod";
 import prisma from "../lib/db";
+import { redirect } from "next/navigation";
 
 export async function OnboardingAction(prevState: any, formData: FormData) {
   const session = await requireUser();
@@ -26,8 +27,10 @@ export async function OnboardingAction(prevState: any, formData: FormData) {
 
   const data = await prisma.user.update({
     where: { id: session.user?.id },
-    data: { userName: submission.value.userName, name: submission.value.fullName },
+    data: { 
+      userName: submission.value.userName, 
+      name: submission.value.fullName 
+    },
   });
-
-  formData.get("username");
+  return redirect("/dashboard"); 
 }
