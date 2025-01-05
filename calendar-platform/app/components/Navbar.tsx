@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/logo.png";
 
-import { ThemeToggle } from "./ThemeToggle";
+import { ThemeToggle } from "../dashboard/ThemeToggle";
 import { AuthModal } from "./AuthModal";
 export function Navbar() {
   return (
