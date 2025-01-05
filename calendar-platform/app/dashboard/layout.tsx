@@ -18,7 +18,7 @@ import prisma from "../lib/db";
 import { redirect } from "next/navigation";
 import Logo from "@/public/logo.png";
 import Image from "next/image";
-import { DashboardLinks } from "../components/dashboard/DashboardLinks";
+import { DasboardLinks } from "../components/dashboard/DasboardLinks";
 import { ThemeToggle } from "../components/dashboard/ThemeToggle";
 import { Toaster } from "@/components/ui/sonner";
 import { auth, signOut } from "../lib/auth";
@@ -69,7 +69,7 @@ export default async function Dashboard({ children }: { children: ReactNode }) {
             </div>
             <div className="flex-1">
               <nav className="grid items-start px-2 text-sm font-medium lg:px-4">
-                <DashboardLinks />
+                <DasboardLinks />
               </nav>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default async function Dashboard({ children }: { children: ReactNode }) {
               </SheetTrigger>
               <SheetContent side="left" className="flex flex-col">
                 <nav className="grid gap-2 mt-10">
-                  <DashboardLinks />
+                  <DasboardLinks />
                 </nav>
               </SheetContent>
             </Sheet>
