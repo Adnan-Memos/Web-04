@@ -25,15 +25,15 @@ export function Testimonial() {
                 />
               </svg>
               <span className="relative z-10 ">
-                Wow CalMarshal is the best platform i have ever used. Definitely
+                Wow Calendar is the best platform i have ever used. Definitely
                 Recommend it to you guys, try it out!
               </span>
             </p>
           </div>
           <footer className="mt-6">
-            <div className="font-semibold ">Jan Marshal</div>
+            <div className="font-semibold ">Adnan Siddiqui</div>
             <div className="text-sm text-muted-foreground">
-              Programmer | YouTuber
+              Programmer | Designer
             </div>
           </footer>
         </blockquote>

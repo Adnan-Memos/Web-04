@@ -38,7 +38,7 @@ const OnboardingPage = () => {
     <div className="h-screen w-screen flex items-center justify-center">
       <Card>
         <CardHeader>
-          <CardTitle>Welcome to CalMarshal</CardTitle>
+          <CardTitle>Welcome to Calendar</CardTitle>
           <CardDescription>
             We need the following information to set up your profile
           </CardDescription>
@@ -52,7 +52,7 @@ const OnboardingPage = () => {
                 name={fields.fullName.name}
                 defaultValue={fields.fullName.initialValue}
                 key={fields.fullName.key}
-                placeholder="Jan marshal"
+                placeholder="Adnan Siddiqui"
               />
               <p className="text-red-500 text-sm">{fields.fullName.errors}</p>
             </div>
@@ -61,7 +61,7 @@ const OnboardingPage = () => {
 
               <div className="flex rounded-md">
                 <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-muted bg-muted text-muted-foreground text-sm">
-                  CalMarshal.com/
+                  adn.memos.com/
                 </span>
                 <Input
                   type="text"
