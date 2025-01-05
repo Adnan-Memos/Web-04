@@ -33,7 +33,7 @@ export const dashboardLinks = [
   },
 ];
 
-export function DasboardLinks() {
+export function DashboardLinks() {
   const pathname = usePathname();
   return (
     <>
