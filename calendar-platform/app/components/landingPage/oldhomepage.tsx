@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/logo.png";
+import Logo from "@/public/adnanlogo.svg";
 
 export function OldHomePage() {
   return (
@@ -9,9 +9,7 @@ export function OldHomePage() {
       <nav className="flex items-center w-full  py-5 justify-between">
         <Link href="/" className="flex items-center gap-x-2">
           <Image src={Logo} alt="logo" width={50} height={50} />
-          <h1 className="text-3xl font-bold">
-            Cal<span className="text-primary">Marshal</span>
-          </h1>
+
         </Link>
 
         <Button asChild>

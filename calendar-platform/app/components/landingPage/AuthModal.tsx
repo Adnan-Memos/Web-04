@@ -6,7 +6,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-import Logo from "@/public/logo.png";
+import Logo from "@/public/adnanlogo.svg";
 import Image from "next/image";
 import GooleLogo from "@/public/google.svg";
 import GitHubLogo from "@/public/github.svg";
@@ -23,9 +23,6 @@ export function AuthModal() {
       <DialogContent className="sm:max-w-[360px]">
         <DialogHeader className="flex-row justify-center items-center gap-x-2">
           <Image src={Logo} className="size-10" alt="Logo" />
-          <h4 className="text-3xl font-semibold">
-            Cal<span className="text-primary">Marshal</span>
-          </h4>
         </DialogHeader>
         <div className="flex flex-col gap-3 mt-5">
           <form
