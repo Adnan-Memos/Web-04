@@ -7,9 +7,9 @@ export function Testimonial() {
         {/* Blockquote */}
         <blockquote className="text-center lg:mx-auto lg:w-3/5">
           <footer className="mt-6">
-            <div className="font-semibold ">Adnan Siddiqui</div>
+            <div className="font-semibold ">Adnan Memos</div>
             <div className="text-sm text-muted-foreground">
-              Programmer | Designer
+            Developer | Designer | Photographer
             </div>
           </footer>
         </blockquote>

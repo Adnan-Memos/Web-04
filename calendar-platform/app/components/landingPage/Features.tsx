@@ -1,29 +1,29 @@
-import { CloudRain } from "lucide-react";
+import { CalendarCog, Rocket, ShieldCheck, Zap } from "lucide-react";
 
 const features = [
   {
     name: "Sign up for free",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.",
-    icon: CloudRain,
+      "Create your account in seconds. Start scheduling meetings without any hassle, and enjoy all the features with no upfront cost.",
+    icon: Rocket,
   },
   {
-    name: "Balzing fast",
+    name: "Blazing fast",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.",
-    icon: CloudRain,
+      "Experience ultra-fast scheduling. From meeting invites to confirmations, everything happens in just a few clicks.",
+    icon: Zap,
   },
   {
     name: "Super secure with Nylas",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.",
-    icon: CloudRain,
+      "Your data is protected with the highest security standards. Schedule and manage meetings with confidence and privacy.",
+    icon: ShieldCheck,
   },
   {
     name: "Easy to use",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.",
-    icon: CloudRain,
+      "A user-friendly interface designed to make scheduling meetings as simple as possible for you and your team.",
+    icon: CalendarCog,
   },
 ];
 

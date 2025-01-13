@@ -16,7 +16,7 @@ import { ReactNode } from "react";
 import { requireUser } from "../lib/hooks";
 import prisma from "../lib/db";
 import { redirect } from "next/navigation";
-import Logo from "@/public/adnanlogo.svg";
+import Logo from "@/public/logo.svg";
 import Image from "next/image";
 import { DashboardLinks } from "../components/dashboard/DashboardLinks";
 import { ThemeToggle } from "../components/dashboard/ThemeToggle";
@@ -61,7 +61,7 @@ export default async function Dashboard({ children }: { children: ReactNode }) {
           <div className="flex h-full max-h-screen flex-col gap-2">
             <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
               <Link href="/" className="flex items-center gap-2 font-semibold">
-                <Image src={Logo} alt="Logo" className="size-6" />
+                <Image src={Logo} alt="Logo" className="size-8" />
               </Link>
             </div>
             <div className="flex-1">

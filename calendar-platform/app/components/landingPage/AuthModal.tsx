@@ -6,9 +6,9 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-import Logo from "@/public/adnanlogo.svg";
+import Logo from "@/public/logo.svg";
 import Image from "next/image";
-import GooleLogo from "@/public/google.svg";
+import GoogleLogo from "@/public/google.svg";
 import GitHubLogo from "@/public/github.svg";
 
 import { signIn } from "@/app/lib/auth";
@@ -22,7 +22,7 @@ export function AuthModal() {
       </DialogTrigger>
       <DialogContent className="sm:max-w-[360px]">
         <DialogHeader className="flex-row justify-center items-center gap-x-2">
-          <Image src={Logo} className="size-10" alt="Logo" />
+          <Image src={Logo} className="size-16" alt="Logo" />
         </DialogHeader>
         <div className="flex flex-col gap-3 mt-5">
           <form
