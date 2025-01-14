@@ -4,7 +4,7 @@
 The *Calendar Scheduling Platform* is a comprehensive full-stack application that simplifies meeting scheduling and calendar management. It features dynamic booking forms, real-time updates, and a fully custom-built calendar system, all wrapped in a clean, responsive interface.  
 
 ## Completion Date  
-January 2024
+January 2025
 
 ## Tools and Technologies  
 Next.js, Nylas API, Auth.js (Providers: [Google, Github]), Supabase Postgres, Prisma ORM, Tailwind CSS, Shadcn/UI, Zod, Vercel  
